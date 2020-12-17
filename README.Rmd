@@ -2,20 +2,14 @@
 title: "GitHub Dashboard"
 output: github_document
 # the repository where this repo exists
-status_repo: gadenbuie/status
+status_repo: beatrizmilz/status
 # list of repositories by owner name and repo
 params:
-  gadenbuie:
-  - js4shiny
-  - xaringanthemer
-  - xaringanExtra
-  - metathis
-  - starwarsdb
-  - shrtcts
-  rstudio-education:
-  - gradethis
-  rstudio:
-  - learnr
+  beatrizmilz:
+  - mananciais
+  R-Ladies-Sao-Paulo:
+  - RLadies-Brasil
+  - RLadiesTheme
 ---
 
 ![](https://github.com/`r rmarkdown::metadata$status_repo`/workflows/Render%20Status/badge.svg)  
